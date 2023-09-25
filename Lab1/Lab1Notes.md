@@ -84,7 +84,8 @@ One Pumpkin Spice Latte, please with whipped cream
     ⚠️ Variable was not declared
     ⚠️ You commented something out and forgot to uncomment it
 
-* ✅ How many errors are here? Write them down on your paper or whiteboard.
+* ✅ How many errors are here? Write them down on your paper or whiteboard. Check your answers with your groupmates.
+
 ```java
 // Welcome message
 System.out.println("Welcome to the Coffee Shop");
