@@ -58,5 +58,31 @@ Now we'll try together (goal: problem solving using a for loop)
 * ✅ Find the variables. What is changing?
 * ✅ How do we know where to start, stop, and update?
 
+### Input
+
+```java
+public static void iPhoneSaving() {
+    int bankAccount = 0;
+    int amountWeekly = 27;
+    for(int week = 1; week <= 11; week++) {
+        bankAccount = bankAccount + amountWeekly;
+        System.out.println("On week " + week + " I have a total of $" + bankAccount + " saved");
+        
+    }
+}
+```
+### Output
+
+> On week 1 I have a total of $27 saved<br>
+> On week 2 I have a total of $54 saved<br>
+> On week 3 I have a total of $81 saved<br>
+> On week 4 I have a total of $108 saved<br>
+> On week 5 I have a total of $135 saved<br>
+> On week 6 I have a total of $162 saved<br>
+> On week 7 I have a total of $189 saved<br>
+> On week 8 I have a total of $216 saved<br>
+> On week 9 I have a total of $243 saved<br>
+> On week 10 I have a total of $270 saved<br>
+> On week 11 I have a total of $297 saved<br>
 ## 🔁📦For Loops (2D)
         
