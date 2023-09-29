@@ -2,8 +2,6 @@
 
 CSSSKL 142 - 9/29/23
 
-
-
     1. BlueJ Installation/Tutorial
     2. Print Statements
     3. Fixing Syntax Errors
@@ -11,7 +9,7 @@ CSSSKL 142 - 9/29/23
 
 ## ☕ BlueJ Installation
 
-* Download link can be found [here](https://www.bluej.org/)
+* Download link can be found [here](https://www.bluej.org/) bluej.org
 * Create a new Project to store all your files for this course
 * Click the 'New Class' button to start a new file
 * Give it a name
@@ -61,7 +59,7 @@ One Pumpkin Spice Latte, please with whipped cream
 
 ### My tips and strategies
 
-1. Start from the bottom and comment out piece by piece until you get no syntax errors.
+1. **Start from the bottom** and comment out piece by piece until you get no syntax errors.
 
     > 📝 `//` to comment out a single line.
     >
@@ -69,11 +67,11 @@ One Pumpkin Spice Latte, please with whipped cream
     >
     > 🔷 In BlueJ, hightlight lines of code and click F8 to comment it out and F7 to uncomment. If you don't like those buttons, you can change them under Options > Key Bindings...
 
-2. Fix errors at the top first; sometimes, this will fix errors later in the code.
+2. **Fix errors at the top first**; sometimes, this will fix errors later in the code.
 
-3. Read the error messages. Sometimes it tells you exactly what you need to do.
+3. **Read the error messages**. Sometimes it tells you exactly what you need to do.
 
-4. Read your code **line by line** and simulate what's happening on paper or a whiteboard.
+4. **Read your code line by line** and simulate what's happening on paper or a whiteboard.
 
 ### Common Syntax Errors
 
@@ -84,7 +82,7 @@ One Pumpkin Spice Latte, please with whipped cream
     ⚠️ Variable was not declared
     ⚠️ You commented something out and forgot to uncomment it
 
-* ✅ How many errors are here? Write them down on your paper or whiteboard. Check your answers with your groupmates.
+* ✅ Let's debug it together. Anything obvious stand out to you?
 
 ```java
 // Welcome message
@@ -113,6 +111,8 @@ System.out.println("Enjoy your coffee!")
 ```
 
 ## 🧩 Simple Methods
+
+> 📝 A Method is a block of code that performs a specific task or function.
 
 * ✅ Work in pairs on whiteboards or on a piece of paper.
 * ✅ Design a method that prints to the screen a message saying a customer's name and their coffee order, so they can come pick it up. Declare variables for the customer's name and their order.
