@@ -10,8 +10,12 @@ CSSSKL 142 - 9/29/23
 ## ☕ BlueJ Installation
 
 * Download link can be found [here](https://www.bluej.org/) bluej.org
-* Create a new Project to store all your files for this course
+* Create a new folder on your computer to store all your CSSSKL 142 projects and assignments. I recommend making a folder for each week.
+> ✨ Make sure you know where this CSSSKL 142 folder is!
+* Create a new `Project` named **"Lab1"** in BlueJ to store all your files for this course. Each week, add a new Project for that Lab.
+
 * Click the 'New Class' button to start a new file
+> ✨ Classes are used for individual .java files. Make sure the class name exactly the same as the file name.
 * Give it a name
 * Make sure 'Class Language' is Java and 'Class Type' is Class
 
@@ -82,7 +86,7 @@ One Pumpkin Spice Latte, please with whipped cream
     ⚠️ Variable was not declared
     ⚠️ You commented something out and forgot to uncomment it
 
-* ✅ Let's debug it together. Anything obvious stand out to you?
+* ✅ The following code snippet has several bugs; can you find them all?
 
 ```java
 // Welcome message
@@ -114,9 +118,7 @@ System.out.println("Enjoy your coffee!")
 
 > 📝 A Method is a block of code that performs a specific task or function.
 
-* ✅ Work in pairs on whiteboards or on a piece of paper.
 * ✅ Design a method that prints to the screen a message saying a customer's name and their coffee order, so they can come pick it up. Declare variables for the customer's name and their order.
-* ✅ Test it out on your laptop.
 
 ### Possible solution
 
@@ -124,6 +126,7 @@ System.out.println("Enjoy your coffee!")
 public static void orderMessage() {
     String customerName = "Sarah";
     String coffeeType = "caramel macchiatto";
-    System.out.println(customerName + ", your " + coffeeType + " is ready! " + customerName + "!!");
+    int shots = 5;
+    System.out.println(customerName + ", your " + shot + " shot " + coffeeType + " is ready! " + customerName + "!!");
 }
 ```
