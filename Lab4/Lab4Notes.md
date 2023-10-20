@@ -6,6 +6,7 @@ CSSSKL 142 - 10/20/23
 
     1. For loops (1D)
     2. For loops (2D)
+    3. Random Number Generator review
 
 ## 🔁 For Loops (1D)
 
@@ -220,3 +221,68 @@ for(int i = numBottles; i > 1; i--) {
 
 ## 🔁📦For Loops (2D)
 
+* You can nest loops inside of each other
+
+### Before
+
+```java
+for(int i = 0; i < 5; i++) {
+    System.out.print(" <3 ");
+}
+```
+
+### Output
+
+```
+ <3  <3  <3  <3  <3 
+```
+
+### After
+
+```java
+for(int j = 0; j < 10; j++) {
+    for(int i = 0; i < 5; i++) {
+        System.out.print(" <3 ");
+    }
+    System.out.println();
+}
+```
+
+### Output
+
+```
+ <3  <3  <3  <3  <3 
+ <3  <3  <3  <3  <3 
+ <3  <3  <3  <3  <3 
+ <3  <3  <3  <3  <3 
+ <3  <3  <3  <3  <3 
+ <3  <3  <3  <3  <3 
+ <3  <3  <3  <3  <3 
+ <3  <3  <3  <3  <3 
+ <3  <3  <3  <3  <3 
+ <3  <3  <3  <3  <3 
+```
+
+## Review Random number generator
+
+Use this import
+```java
+import java.util.Random;
+```
+
+Also create an instance of the Random class (like you do for Scanner)
+```java
+Random rand = new Random();
+```
+
+To generate a random number between 0 and n-1
+```java
+int num1 = rand.nextInt(5); // between 0-4
+```
+
+Generate within a range
+```java
+int max = 10;
+int min = 5;
+int num2 = rand.nextInt(max - min + 1) + min; 
+```
