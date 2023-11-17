@@ -11,25 +11,26 @@ CSSSKL 142 - 11/17/23
 
 ## 🏘️ 1D Arrays : Our first data structure
 
-* We can store a piece of information in a String, int, char. But what if we want to store a *group* of Strings, ints, or chars?
-* This is where arrays and data structures come in
-* You can quickly access elements in the array, given its index
+* We can store a piece of information in a String, int, char, etc. But what if we want to store a *group* of Strings, ints, or chars?
+* This is where arrays and **data structures** come in.
+* Data structures are a systematic way of storing, organizing and manipulating information.
+* An array has the advantage of being able to quickly access an element, given its *index*.
 
 ### Properties of arrays
 
-* Need to initialize with the data type and size (if using a dynamic array), and it cannot change
-* Must contain the same type of element (example: all Strings)
-* Arrays use 0-indexing
+* Need to initialize with the data type and size (if you are not providing the elements initially), and the type and size cannot change.
+* Must contain the same type of element (example: all Strings).
+* Arrays use 0-indexing (like most things in Java).
 * Can get the length using `.length`. This is a *property*, NOT a method like `.size()`
 * Arrays, like Strings are **objects**. They have methdos we can use.
 * We've learned about **primitives** like `int`, `char`, and `boolean`. They do not have methods.
 * We will learn more about **object-oriented programming** in the final two weeks.
 
-### How is an array stored in memory? 
+### How is an array stored in memory? An analogy
 
 > Imagine you are going to your friend's house. You don't remember their exact address, but you know they live in the 3rd house down from the corner of H Street and 10th Street. You can put those cross streets into your phone, and just count 3 houses over to get to their house.
 >
-> You remembered the start of the street in order to get to your friend's house. The array is accessed by going to the address of the first element, and the index is how many spaces away from the beginning you need to get to.
+> You remembered the start of the street in order to get to your friend's house. An array is accessed in a similar fashion. By going to the address of the first element, the index tells you how many spaces away from the beginning you need to go to access the desired element.
 
 ### Initializing arrays
 
@@ -41,7 +42,7 @@ CSSSKL 142 - 11/17/23
 
     ```int[] myArray2 = new int[5];```
 
-📝 **By default, int elements are initialized to 0**    
+📝 **By default, int elements are initialized to 0**  
 
 ## 📦 Array vs ArrayList?
 
@@ -132,6 +133,13 @@ public class ArrayReferenceExample {
     }
 }
 ```
+📝 **By default, int elements are initialized to 0**
+
+📝 **By default, String elements are initialized to `null`**
+
+📝 **By default, boolean elements are initialized to `false`** 
+
+
 * `String[] args` is a 1D array!
 
 ```java
